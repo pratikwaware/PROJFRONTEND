@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "../styles.css";
-import { API } from "../backend";
 import Base from "./Base";
 import Card from "./Card";
 import { loadCart } from "./helper/cartHelper";
 import Paymentb from "./Paymentb";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
-import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 
 const Cart = () => {
   const [products, setProducts] = useState([]);
