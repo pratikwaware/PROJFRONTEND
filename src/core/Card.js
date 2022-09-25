@@ -73,8 +73,6 @@ const Cards = ({
       <Card
         sx={{
           backgroundColor: "#eeeeee",
-          // background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
-          // boxShadow: "0 3px 5px 2px rgba(255, 105, 135, .3)",
           width: 320,
           height: 365,
           alignContent: "center",
@@ -104,7 +102,6 @@ const Cards = ({
         </CardContent>
         <CardActions sx={{ justifyContent: "space-around", columnGap: 1 }}>
           <Button size="small">$ {cartPrice}</Button>
-          {/* <Button size="small">{GetCategory(product)}</Button> */}
           <Rating
             name="simple-controlled"
             value={value}
