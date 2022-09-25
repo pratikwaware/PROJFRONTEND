@@ -169,7 +169,6 @@ const AddProduct = () => {
   return (
     <>
       <SideDrawer children={<CreateProduct />} />
-      {/* {successMessage()} */}
     </>
   );
 };
