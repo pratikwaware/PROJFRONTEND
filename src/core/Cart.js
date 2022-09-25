@@ -25,7 +25,6 @@ const Cart = () => {
           display: "flex",
           flexWrap: "wrap",
           p: 5,
-          // mt: 5,
           columnGap: 6,
           bgcolor: "#fff",
           rowGap: 15,
