@@ -102,7 +102,6 @@ const Cards = ({
         </CardContent>
         <CardActions sx={{ justifyContent: "space-around", columnGap: 1 }}>
           <Button size="small">$ {cartPrice}</Button>
-          {/* <Button size="small">{GetCategory(product)}</Button> */}
           <Rating
             name="simple-controlled"
             value={value}
